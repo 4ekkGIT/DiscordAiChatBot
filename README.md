@@ -19,16 +19,6 @@ A lightweight AI-powered Discord bot built with **C#**, **Discord.NET**, and the
 * **Newtonsoft.Json**
 * **HttpClient**
 
-## 📂 Project Structure
-
-```
-DiscordAiBot/
-│
-├── Program.cs          # Main application logic
-├── README.md           # Project documentation
-└── ...
-```
-
 ## ⚙️ Configuration
 
 Before running the bot, replace the placeholder values in `Program.cs`:
@@ -99,12 +89,11 @@ If Gemini temporarily returns a **429 (Rate Limited)** or **503 (Service Unavail
 * Per-user chat history
 * Slash commands
 * Image generation support
-* Streaming responses
 * Multiple AI provider support (OpenAI, Claude, Ollama, etc.)
 * Configuration through JSON instead of hardcoded constants
 * Docker support
 * Logging system
-* Admin commands
+* Admin commands 
 * Personality presets
 
 ## 📄 License
@@ -115,4 +104,7 @@ This project is open-source and available under the MIT License.
 
 ### Disclaimer
 
-This project is an educational demonstration of integrating the Discord API with Google's Gemini AI. API usage may incur costs depending on your Gemini API plan.
+This project was created primarily as a personal learning project and a fun experiment with the **Discord.NET** library and the **Google Gemini API**. It is not intended to be a production-ready solution, but rather a way to explore AI integration, experiment with new technologies, and improve my C# development skills.
+
+If you decide to use or modify this project, keep in mind that usage of the Google Gemini API may be subject to quotas or charges depending on your API plan.
+
